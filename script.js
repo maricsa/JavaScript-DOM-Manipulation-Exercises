@@ -4,10 +4,8 @@ $(document).ready(function(){
 
 
 $('button').click(function(){
-	var x = $('#input').val();
-	console.log(x);
-	if (x < 1){
-
+	var x = $('input').val();
+	if (x.length !== 10){
 		alert("Please put in your Birthday!");
 	}
 });
