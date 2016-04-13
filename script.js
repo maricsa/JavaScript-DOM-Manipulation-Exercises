@@ -30,4 +30,12 @@ $('#passwordb').click(function(){
 	}
 });
 
+$(document).keypress(function(e){
+	if (e.charCode >= 48 && e.charCode <= 57){
+		$('h1').text("It's a number!");
+	} else if (e.charCode >= 65 && e.charCode <= 90 || e.charCode >= 97 && e.charCode <= 122){
+		$('h1').text("It's a letter!");
+	}
+});
+
 });
