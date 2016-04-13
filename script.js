@@ -7,7 +7,7 @@ $('#bdayb').click(function(){
 	var x = $('#bday').val();
 	if (x.length !== 10){
 		alert("Please put in your Birthday!");
-	} else {
+	} else { 
 		console.log(x)
 	}
 });
