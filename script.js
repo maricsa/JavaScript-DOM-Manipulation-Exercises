@@ -6,8 +6,7 @@ $(document).ready(function(){
 $('button').click(function(){
 	var x = $('#input').val();
 	console.log(x);
-	if (x < 1){
-
+	if (x.lenght ! == 10){
 		alert("Please put in your Birthday!");
 	}
 });
